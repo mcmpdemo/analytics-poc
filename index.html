@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,600,700|Slabo+27px&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Dashboard</title>
+</head>
+
+<body>
+
+  <!-- Analytics -->
+
+  <script type="text/javascript">
+    let utag_data = { "adl_site_hierarchy": ["dashboard"], "adl_category": "poc-dashboard", "adl_subcategory": "", "adl_language": "en", "adl_country": "US", "adl_page_type": "", "page_name": "PoC Dashboard", "adl_page_url": "http://this-is-just-a-test.html/dashboard.html" };
+  </script>
+
+  <script type="text/javascript">
+    function importUtagScript() {
+      (function (a, b, c, d) {
+        a = 'https://tags.tiqcdn.com/utag/kyndryl/dev/dev/utag.js';
+        b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
+        a = b.getElementsByTagName(c)[3]; a.parentNode.insertBefore(d, a);
+      })();
+    }
+  </script>
+
+  <!-- Analytics -->
+
+  <div class="container change">
+    <nav class="sidebar">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="images/admin.png" width="50" class="admin-image" />
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Christian V</h2>
+          <p class="card-subtitle">Administrator</p>
+        </div>
+      </div>
+      <form class="search-form">
+        <input class="search-input" type="text" placeholder="Search" />
+        <button type="button" class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"><i class="fas fa-tachometer-alt"></i><span
+              class="nav-link-text">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="e-commerce.html" class="nav-link"><i class="fas fa-shopping-cart"></i>
+            <span class="nav-link-text">E-commerce</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="far fa-gem"></i>
+            <span class="nav-link-text">Components</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="fas fa-chart-line"></i>
+            <span class="nav-link-text">Charts</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-map-marker-alt"></i><span class="nav-link-text">Maps</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="bottom-list">
+        <li class="bottom-item">
+          <a href="#" class="bottom-link">
+            <span>5</span> <i class="fas fa-bell"></i></a>
+        </li>
+        <li class="bottom-item">
+          <a href="#" class="bottom-link"><span>7</span><i class="fas fa-envelope"></i></a>
+        </li>
+        <li class="bottom-item">
+          <a href="#" class="bottom-link">
+            <span>1</span> <i class="fas fa-cog"></i></a>
+        </li>
+        <li class="bottom-item">
+          <a href="#" class="bottom-link"><i class="fas fa-power-off"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="main-section">
+      <header class="header">
+        <h1 class="heading">Dashboard</h1>
+      </header>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
